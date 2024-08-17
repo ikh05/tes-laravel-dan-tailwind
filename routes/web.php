@@ -19,7 +19,7 @@ Route::get('/about', function(){
     ]);
 });
 
-
+ 
 Route::get('/guru', [GuruController::class, 'index']);
 Route::get('/guru/detail/{guru:username}', [GuruController::class, 'detail']);
 // Route::get('/guru/login', [GuruController::class, 'login']);
